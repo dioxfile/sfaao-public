@@ -142,35 +142,57 @@ Informações adicionais relacionadas à propriedade intelectual serão divulgad
 
 ### SFAAO em funcionamento
 
-As capturas abaixo apresentam os principais fluxos operacionais do **SFAAO 2.3.0**. As imagens são exclusivamente demonstrativas e não expõem código-fonte, modelos treinados, chaves ou componentes internos de segurança.
+As capturas abaixo apresentam o fluxo operacional do **SFAAO 2.3.0**, desde a configuração inicial do ambiente até a análise e geração da documentação pericial.
 
-#### Acesso, usuários e perfil pericial
+As imagens são disponibilizadas exclusivamente para demonstração pública da plataforma e não expõem código-fonte proprietário, modelos treinados, chaves, mecanismos internos de segurança ou infraestrutura administrativa.
 
-**Primeiro acesso**
+#### Configuração inicial e acesso
 
-Tela inicial de acesso ao SFAAO.
+**1. Configuração inicial do administrador**
+
+Configuração do primeiro usuário administrativo responsável pelo ambiente do SFAAO.
+
+<p align="center">
+  <img src="media/images/screenshots/first-admin.png" alt="Configuração inicial do administrador" width="1000">
+</p>
+
+**2. Primeiro acesso**
+
+Tela inicial utilizada para autenticação e acesso ao sistema.
 
 <p align="center">
   <img src="media/images/screenshots/first-login.png" alt="Primeiro acesso" width="1000">
 </p>
 
-**Administrador inicial**
+#### Ambiente principal e casos
 
-Configuração do primeiro usuário administrativo do sistema.
+**3. Janela principal**
 
-<p align="center">
-  <img src="media/images/screenshots/first-admin.png" alt="Administrador inicial" width="1000">
-</p>
-
-**Gerenciamento de usuários**
-
-Administração dos usuários autorizados a utilizar a plataforma.
+Centraliza o acesso às principais funcionalidades operacionais e administrativas do SFAAO.
 
 <p align="center">
-  <img src="media/images/screenshots/manager-users.png" alt="Gerenciamento de usuários" width="1000">
+  <img src="media/images/screenshots/main-window.png" alt="Janela principal" width="1000">
 </p>
 
-**Perfil do perito**
+**4. Criação de caso**
+
+Permite cadastrar e identificar de forma estruturada um novo caso pericial.
+
+<p align="center">
+  <img src="media/images/screenshots/create-case.png" alt="Criação de caso" width="1000">
+</p>
+
+**5. Lista de casos**
+
+Apresenta os casos cadastrados e permite selecionar o caso que será analisado.
+
+<p align="center">
+  <img src="media/images/screenshots/list-case.png" alt="Lista de casos" width="1000">
+</p>
+
+#### Perfil pericial e usuários
+
+**6. Perfil do perito**
 
 Cadastro dos dados profissionais utilizados na identificação do responsável técnico.
 
@@ -178,103 +200,87 @@ Cadastro dos dados profissionais utilizados na identificação do responsável t
   <img src="media/images/screenshots/profile-expert.png" alt="Perfil do perito" width="1000">
 </p>
 
-#### Gerenciamento de casos
+**7. Gerenciamento de usuários**
 
-**Janela principal**
-
-Central de acesso às principais funcionalidades operacionais e administrativas.
+Permite administrar os usuários autorizados a utilizar a plataforma.
 
 <p align="center">
-  <img src="media/images/screenshots/main-window.png" alt="Janela principal" width="1000">
-</p>
-
-**Criação de caso**
-
-Cadastro e identificação estruturada de um novo caso pericial.
-
-<p align="center">
-  <img src="media/images/screenshots/create-case.png" alt="Criação de caso" width="1000">
-</p>
-
-**Lista de casos**
-
-Consulta e seleção dos casos cadastrados no sistema.
-
-<p align="center">
-  <img src="media/images/screenshots/list-case.png" alt="Lista de casos" width="1000">
-</p>
-
-**Janela do caso**
-
-Organização das referências, assinaturas questionadas e informações relacionadas ao caso.
-
-<p align="center">
-  <img src="media/images/screenshots/case-window.png" alt="Janela do caso" width="1000">
-</p>
-
-**Operações do caso**
-
-Acesso às operações computacionais e periciais disponíveis para o caso selecionado.
-
-<p align="center">
-  <img src="media/images/screenshots/operation-window.png" alt="Operações do caso" width="1000">
+  <img src="media/images/screenshots/manager-users.png" alt="Gerenciamento de usuários" width="1000">
 </p>
 
 #### Datasets e modelos
 
-**Gerenciamento de datasets**
+**8. Gerenciamento de datasets**
 
-Administração dos conjuntos de dados utilizados em treinamento e experimentação científica.
+Administração dos conjuntos de dados disponíveis para treinamento e experimentação científica.
 
 <p align="center">
   <img src="media/images/screenshots/manager-datasets.png" alt="Gerenciamento de datasets" width="1000">
 </p>
 
-**Adição de dataset**
+**9. Adição de dataset**
 
-Cadastro controlado de novos conjuntos de assinaturas.
+Interface destinada ao cadastro e à integração controlada de novos conjuntos de assinaturas.
 
 <p align="center">
   <img src="media/images/screenshots/add-datasets.png" alt="Adição de dataset" width="1000">
 </p>
 
-**Validação de dataset**
+**10. Validação de dataset**
 
-Verificação da estrutura do conjunto de dados antes de sua utilização.
+Verificação da estrutura e compatibilidade do conjunto de dados antes de sua utilização.
 
 <p align="center">
   <img src="media/images/screenshots/valid-dataset.png" alt="Validação de dataset" width="1000">
 </p>
 
-**Adição de modelo**
+**11. Adição de modelo**
 
-Registro de modelos compatíveis com a infraestrutura de análise do SFAAO.
+Permite registrar modelos compatíveis com a infraestrutura de análise e experimentação do SFAAO.
 
 <p align="center">
   <img src="media/images/screenshots/add-model.png" alt="Adição de modelo" width="1000">
 </p>
 
-#### Treinamento
+#### Treinamento e monitoramento
 
-**Configuração de treinamento**
+**12. Configuração de treinamento**
 
-Parametrização do treinamento, incluindo arquitetura, estratégia e parâmetros de otimização.
+Ambiente parametrizável para configuração das estratégias e parâmetros utilizados no treinamento.
 
 <p align="center">
   <img src="media/images/screenshots/train-window.png" alt="Configuração de treinamento" width="1000">
 </p>
 
-**Monitoramento do treinamento**
+**13. Monitoramento do treinamento**
 
-Acompanhamento da execução e da evolução do processo de treinamento.
+Permite acompanhar a execução e a evolução do processo de treinamento.
 
 <p align="center">
   <img src="media/images/screenshots/train-monitor-window.png" alt="Monitoramento do treinamento" width="1000">
 </p>
 
-#### Calibração e comparação
+#### Operações do caso
 
-**Calibração estatística**
+**14. Janela do caso**
+
+Organiza referências, assinaturas questionadas e demais informações associadas ao caso.
+
+<p align="center">
+  <img src="media/images/screenshots/case-window.png" alt="Janela do caso" width="1000">
+</p>
+
+**15. Operações do caso**
+
+Disponibiliza as operações computacionais e periciais aplicáveis ao caso selecionado.
+
+<p align="center">
+  <img src="media/images/screenshots/operation-window.png" alt="Operações do caso" width="1000">
+</p>
+
+#### Calibração, comparação e resultados
+
+**16. Calibração estatística**
 
 Configuração do procedimento de calibração de acordo com o protocolo aplicado.
 
@@ -282,25 +288,25 @@ Configuração do procedimento de calibração de acordo com o protocolo aplicad
   <img src="media/images/screenshots/calibration-window.png" alt="Calibração estatística" width="1000">
 </p>
 
-**Resultado da calibração**
+**17. Resultado da calibração**
 
-Apresentação dos resultados estatísticos produzidos durante a calibração.
+Apresentação dos resultados estatísticos produzidos pelo procedimento de calibração.
 
 <p align="center">
   <img src="media/images/screenshots/result-calibration-window.png" alt="Resultado da calibração" width="1000">
 </p>
 
-**Comparação de assinaturas**
+**18. Comparação de assinaturas**
 
-Execução das comparações entre referências e assinaturas questionadas.
+Executa comparações computacionais entre as referências e as assinaturas questionadas.
 
 <p align="center">
   <img src="media/images/screenshots/compare-window.png" alt="Comparação de assinaturas" width="1000">
 </p>
 
-**Resultados em lote**
+**19. Resultados em lote**
 
-Organização dos resultados de múltiplas comparações realizadas no caso.
+Organiza os resultados obtidos em múltiplas comparações realizadas dentro do caso.
 
 <p align="center">
   <img src="media/images/screenshots/batch-result-window.png" alt="Resultados em lote" width="1000">
@@ -308,20 +314,20 @@ Organização dos resultados de múltiplas comparações realizadas no caso.
 
 #### Documentação pericial
 
-**Laudo pericial**
+**20. Laudo pericial**
 
-Organização dos dados utilizados na documentação técnica e pericial.
+Organiza os dados técnicos utilizados na elaboração da documentação pericial.
 
 <p align="center">
   <img src="media/images/screenshots/expert-report-window.png" alt="Laudo pericial" width="1000">
 </p>
 
-**Geração do laudo**
+**21. Resultado da geração do laudo**
 
-Resultado do processo de geração da documentação estruturada do caso.
+Apresenta o resultado do processo de geração da documentação estruturada do caso.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-result.png" alt="Geração do laudo" width="1000">
+  <img src="media/images/screenshots/expert-report-result.png" alt="Resultado da geração do laudo" width="1000">
 </p>
 
 > **Importante:** o SFAAO é uma ferramenta computacional de apoio. A interpretação e a conclusão pericial dependem do protocolo aplicado e do profissional tecnicamente habilitado.
@@ -488,139 +494,145 @@ Additional intellectual-property information will be disclosed according to the 
 
 ### SFAAO in Action
 
-The screenshots below present the main operational workflows of **SFAAO 2.3.0**. They are provided exclusively for demonstration and do not expose source code, trained models, keys or internal security components.
+The screenshots below present the operational workflow of **SFAAO 2.3.0**, from initial environment setup to analysis and generation of forensic documentation.
 
-#### Access, users and forensic profile
+The images are provided exclusively as a public demonstration of the platform and do not expose proprietary source code, trained models, keys, internal security mechanisms or administrative infrastructure.
 
-**First access**
+#### Initial setup and access
 
-Initial SFAAO access screen.
+**1. Initial administrator setup**
+
+Configuration of the first administrative user responsible for the SFAAO environment.
+
+<p align="center">
+  <img src="media/images/screenshots/first-admin.png" alt="Initial administrator setup" width="1000">
+</p>
+
+**2. First access**
+
+Initial screen used for authentication and system access.
 
 <p align="center">
   <img src="media/images/screenshots/first-login.png" alt="First access" width="1000">
 </p>
 
-**Initial administrator**
+#### Main environment and cases
 
-Configuration of the first administrative user.
+**3. Main window**
 
-<p align="center">
-  <img src="media/images/screenshots/first-admin.png" alt="Initial administrator" width="1000">
-</p>
-
-**User management**
-
-Management of users authorized to operate the platform.
-
-<p align="center">
-  <img src="media/images/screenshots/manager-users.png" alt="User management" width="1000">
-</p>
-
-**Forensic examiner profile**
-
-Professional information used to identify the responsible examiner.
-
-<p align="center">
-  <img src="media/images/screenshots/profile-expert.png" alt="Forensic examiner profile" width="1000">
-</p>
-
-#### Case management
-
-**Main window**
-
-Central access point for the main operational and administrative functions.
+Centralizes access to the main operational and administrative functions of SFAAO.
 
 <p align="center">
   <img src="media/images/screenshots/main-window.png" alt="Main window" width="1000">
 </p>
 
-**Case creation**
+**4. Case creation**
 
-Structured registration and identification of a new forensic case.
+Allows a new forensic case to be registered and identified in a structured manner.
 
 <p align="center">
   <img src="media/images/screenshots/create-case.png" alt="Case creation" width="1000">
 </p>
 
-**Case list**
+**5. Case list**
 
-Browsing and selection of cases registered in the system.
+Displays registered cases and allows selection of the case to be analyzed.
 
 <p align="center">
   <img src="media/images/screenshots/list-case.png" alt="Case list" width="1000">
 </p>
 
-**Case window**
+#### Forensic profile and users
 
-Organization of references, questioned signatures and case-related information.
+**6. Forensic examiner profile**
+
+Professional information used to identify the responsible technical examiner.
 
 <p align="center">
-  <img src="media/images/screenshots/case-window.png" alt="Case window" width="1000">
+  <img src="media/images/screenshots/profile-expert.png" alt="Forensic examiner profile" width="1000">
 </p>
 
-**Case operations**
+**7. User management**
 
-Access to computational and forensic operations available for the selected case.
+Allows management of users authorized to operate the platform.
 
 <p align="center">
-  <img src="media/images/screenshots/operation-window.png" alt="Case operations" width="1000">
+  <img src="media/images/screenshots/manager-users.png" alt="User management" width="1000">
 </p>
 
 #### Datasets and models
 
-**Dataset management**
+**8. Dataset management**
 
-Management of datasets used for training and scientific experimentation.
+Management of datasets available for training and scientific experimentation.
 
 <p align="center">
   <img src="media/images/screenshots/manager-datasets.png" alt="Dataset management" width="1000">
 </p>
 
-**Adding a dataset**
+**9. Adding a dataset**
 
-Controlled registration of new signature datasets.
+Interface for controlled registration and integration of new signature datasets.
 
 <p align="center">
   <img src="media/images/screenshots/add-datasets.png" alt="Adding a dataset" width="1000">
 </p>
 
-**Dataset validation**
+**10. Dataset validation**
 
-Verification of dataset structure before use.
+Verification of dataset structure and compatibility before use.
 
 <p align="center">
   <img src="media/images/screenshots/valid-dataset.png" alt="Dataset validation" width="1000">
 </p>
 
-**Adding a model**
+**11. Adding a model**
 
-Registration of models compatible with the SFAAO analysis infrastructure.
+Allows registration of models compatible with the SFAAO analysis and experimentation infrastructure.
 
 <p align="center">
   <img src="media/images/screenshots/add-model.png" alt="Adding a model" width="1000">
 </p>
 
-#### Training
+#### Training and monitoring
 
-**Training configuration**
+**12. Training configuration**
 
-Configuration of training architecture, strategy and optimization parameters.
+Configurable environment for defining training strategies and parameters.
 
 <p align="center">
   <img src="media/images/screenshots/train-window.png" alt="Training configuration" width="1000">
 </p>
 
-**Training monitor**
+**13. Training monitor**
 
-Monitoring of training execution and progress.
+Allows monitoring of training execution and progress.
 
 <p align="center">
   <img src="media/images/screenshots/train-monitor-window.png" alt="Training monitor" width="1000">
 </p>
 
-#### Calibration and comparison
+#### Case operations
 
-**Statistical calibration**
+**14. Case window**
+
+Organizes reference signatures, questioned signatures and other case-related information.
+
+<p align="center">
+  <img src="media/images/screenshots/case-window.png" alt="Case window" width="1000">
+</p>
+
+**15. Case operations**
+
+Provides computational and forensic operations applicable to the selected case.
+
+<p align="center">
+  <img src="media/images/screenshots/operation-window.png" alt="Case operations" width="1000">
+</p>
+
+#### Calibration, comparison and results
+
+**16. Statistical calibration**
 
 Configuration of the calibration procedure according to the applied protocol.
 
@@ -628,25 +640,25 @@ Configuration of the calibration procedure according to the applied protocol.
   <img src="media/images/screenshots/calibration-window.png" alt="Statistical calibration" width="1000">
 </p>
 
-**Calibration results**
+**17. Calibration results**
 
-Presentation of statistical results produced during calibration.
+Presentation of statistical results produced by the calibration procedure.
 
 <p align="center">
   <img src="media/images/screenshots/result-calibration-window.png" alt="Calibration results" width="1000">
 </p>
 
-**Signature comparison**
+**18. Signature comparison**
 
-Comparison between reference and questioned signatures.
+Performs computational comparisons between reference and questioned signatures.
 
 <p align="center">
   <img src="media/images/screenshots/compare-window.png" alt="Signature comparison" width="1000">
 </p>
 
-**Batch results**
+**19. Batch results**
 
-Organization of results from multiple comparisons performed in a case.
+Organizes results obtained from multiple comparisons performed within a case.
 
 <p align="center">
   <img src="media/images/screenshots/batch-result-window.png" alt="Batch results" width="1000">
@@ -654,20 +666,20 @@ Organization of results from multiple comparisons performed in a case.
 
 #### Forensic documentation
 
-**Forensic report**
+**20. Forensic report**
 
-Organization of information used in technical and forensic documentation.
+Organizes technical information used in forensic documentation.
 
 <p align="center">
   <img src="media/images/screenshots/expert-report-window.png" alt="Forensic report" width="1000">
 </p>
 
-**Report generation**
+**21. Generated report result**
 
-Result of the structured case-documentation generation process.
+Presents the result of the structured case-documentation generation process.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-result.png" alt="Report generation" width="1000">
+  <img src="media/images/screenshots/expert-report-result.png" alt="Generated report result" width="1000">
 </p>
 
 > **Important:** SFAAO is a computational support tool. Forensic interpretation and conclusions depend on the applied protocol and a technically qualified professional.
