@@ -1,0 +1,64 @@
+# SFAAO public repository — no proprietary source code
+
+# Source code / scripts
+*.py
+*.pyc
+*.pyo
+__pycache__/
+*.ipynb
+*.sh
+*.bat
+*.ps1
+
+# Models / datasets / databases
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.db
+*.sqlite
+*.sqlite3
+datasets/
+data/
+models/
+
+# Licensing / secrets / credentials
+*.sfaao
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.env
+.env.*
+*private_key*
+*regcode*
+*regfile*
+*LICENSE_REQUEST*
+*license_request*
+
+# Build / packages / executables
+build/
+dist/
+*.deb
+*.rpm
+*.exe
+*.msi
+*.AppImage
+*.zip
+*.tar
+*.tar.gz
+
+# Operational / forensic data
+storage/
+cases/
+results/
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
