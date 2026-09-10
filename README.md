@@ -282,7 +282,7 @@ Disponibiliza as operações computacionais e periciais aplicáveis ao caso sele
 
 **16. Calibração estatística**
 
-Configuração do procedimento de calibração de acordo com o protocolo aplicado.
+Configuração do procedimento de calibração de acordo com o protocolo aplicado. No SFAAO 2.3.0, a calibração estima FAR, FRR e EER e adota, na interface oficial, um **FAR-alvo operacional fixo de 1%**. O EER é calculado independentemente; a condição **FAR ≤ 1%** é uma restrição empírica observada na população de calibração e não uma garantia de desempenho universal.
 
 <p align="center">
   <img src="media/images/screenshots/calibration-window.png" alt="Calibração estatística" width="1000">
@@ -634,7 +634,7 @@ Provides computational and forensic operations applicable to the selected case.
 
 **16. Statistical calibration**
 
-Configuration of the calibration procedure according to the applied protocol.
+Configuration of the calibration procedure according to the applied protocol. In SFAAO 2.3.0, calibration estimates FAR, FRR, and EER and adopts, in the official interface, a **fixed operational FAR target of 1%**. EER is computed independently; the **FAR ≤ 1%** condition is an empirical constraint observed in the calibration population and is not a guarantee of universal performance.
 
 <p align="center">
   <img src="media/images/screenshots/calibration-window.png" alt="Statistical calibration" width="1000">
