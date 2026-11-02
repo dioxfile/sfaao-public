@@ -915,7 +915,7 @@ This document does not duplicate those definitions.
 
 [3] K. Kent, S. Chevalier, T. Grance, and H. Dang, *Guide to Integrating Forensic Techniques into Incident Response*, NIST Special Publication 800-86, 2006. doi: 10.6028/NIST.SP.800-86.
 
-[4] D. A. M. José, L. de Medeiros Marques, A. Bueno, and R. B. Z. da Silva, “Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification,” article accepted for publication in *IEEE Access*, 2026 (final bibliographic metadata pending).
+[4] D. A. M. José, L. de Medeiros Marques, A. Bueno, and R. B. Z. da Silva, “Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification,” revised manuscript resubmitted to *IEEE Access*, 2026 (editorial decision and final bibliographic metadata pending).
 
 ---
 

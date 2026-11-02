@@ -622,7 +622,7 @@ Regras de dados:
 5. as assinaturas questionadas não devem ser reclassificadas como amostras externas;
 6. treinamento, calibração biométrica e inferência permanecem etapas distintas.
 
-A metodologia de **Independent External-Impostor Calibration** é descrita no documento de calibração e no artigo científico aceito para publicação associado ao SFAAO [10].
+A metodologia de **Independent External-Impostor Calibration** é descrita no documento de calibração e no manuscrito científico revisado e ressubmetido ao IEEE Access, associado ao SFAAO [10].
 
 ---
 
@@ -809,7 +809,7 @@ Antes de considerar um profile pronto:
 
 [9] IAPR TC4, “Signature Datasets — MCYT-SignatureOff-75,” International Association for Pattern Recognition Technical Committee 4. Acesso em 28 ago. 2026. https://iapr-tc4.org/signature-datasets/
 
-[10] D. A. M. José, L. de Medeiros Marques, A. Bueno, and R. B. Z. da Silva, “Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification,” artigo aceito para publicação no *IEEE Access*, 2026 (dados bibliográficos finais pendentes).
+[10] D. A. M. José, L. de Medeiros Marques, A. Bueno, and R. B. Z. da Silva, “Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification,” manuscrito revisado e ressubmetido ao *IEEE Access*, 2026 (decisão editorial e dados bibliográficos finais pendentes).
 
 ---
 

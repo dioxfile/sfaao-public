@@ -125,11 +125,11 @@ O SFAAO possui potencial de aplicação em:
 
 O desenvolvimento do SFAAO é acompanhado por pesquisa científica relacionada à verificação de assinaturas offline, Deep Learning, redes neurais siamesas, calibração estatística e mitigação de diferenças entre populações de dados.
 
-Um manuscrito relacionado à metodologia científica utilizada no projeto foi submetido ao **IEEE Access** e encontra-se atualmente **em processo de revisão por pares**.
+O manuscrito relacionado à metodologia científica do SFAAO foi submetido ao **IEEE Access**, passou por **avaliação por pares (peer review)** e teve sua **versão revisada ressubmetida à revista** para decisão editorial.
 
-> **Status:** manuscript submitted to IEEE Access — under peer review.
+> **Situação editorial:** avaliação por pares realizada; versão revisada ressubmetida ao IEEE Access, aguardando decisão editorial.
 
-A submissão de um manuscrito não representa aceitação ou publicação. Em caso de aprovação, esta seção será atualizada com a referência bibliográfica oficial e o DOI.
+A publicação é esperada, mas depende da confirmação formal de aceitação. Após a publicação, esta seção será atualizada com a referência bibliográfica oficial e o DOI.
 
 ---
 
@@ -643,11 +643,11 @@ Potential application areas include:
 
 SFAAO development is accompanied by scientific research on offline signature verification, Deep Learning, Siamese neural networks, statistical calibration and dataset-shift mitigation.
 
-A manuscript related to the scientific methodology associated with the project has been submitted to **IEEE Access** and is currently **under peer review**.
+The manuscript related to SFAAO's scientific methodology was submitted to **IEEE Access**, underwent **peer review**, and its **revised version has been resubmitted** for an editorial decision.
 
-> **Status:** manuscript submitted to IEEE Access — under peer review.
+> **Editorial status:** peer review completed; revised manuscript resubmitted to IEEE Access, awaiting an editorial decision.
 
-Submission does not imply acceptance or publication. If accepted, this section will be updated with the official bibliographic reference and DOI.
+Publication is anticipated but remains subject to formal editorial acceptance. Once published, this section will be updated with the official bibliographic reference and DOI.
 
 ---
 

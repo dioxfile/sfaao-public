@@ -64,7 +64,7 @@ Ele **não substitui as citações no ponto de definição**. Cada documento té
 | **R41** | SQLite. “Online Backup API.” Official SQLite Documentation. | Backup consistente de bancos SQLite em operação. | [official/DOI](https://www.sqlite.org/backup.html) |
 | **R42** | Python Software Foundation. `sqlite3` — DB-API 2.0 interface for SQLite databases. Python 3.10 Documentation. | Interface SQLite utilizada pela aplicação; suporte operacional a backup/conexões. | [official/DOI](https://docs.python.org/3.10/library/sqlite3.html) |
 | **R43** | PyTorch Documentation. Optimizers and learning-rate schedulers (`Adam`, `AdamW`, `StepLR`, `CosineAnnealingLR`, `ReduceLROnPlateau`). | Semântica das implementações de optimizer/scheduler utilizadas pelo SFAAO. | [official/DOI](https://docs.pytorch.org/docs/stable/optim.html) |
-| **R44** | José, D. A. M.; Marques, L. de M.; Bueno, A.; Silva, R. B. Z. da. “Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification.” Artigo aceito para publicação no IEEE Access, 2026 (dados bibliográficos finais pendentes). | Metodologia científica SFAAO; Independent External-Impostor Calibration. | Registro interno do projeto |
+| **R44** | José, D. A. M.; Marques, L. de M.; Bueno, A.; Silva, R. B. Z. da. “Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification.” Manuscrito revisado e ressubmetido ao IEEE Access após avaliação por pares, 2026 (decisão editorial e metadados finais pendentes). | Metodologia científica SFAAO; Independent External-Impostor Calibration. | Registro interno do projeto |
 
 ---
 
@@ -89,14 +89,14 @@ A versão final publicada em **julho de 2025** substitui a edição anterior do 
 
 A referência normativa consolidada utilizada nesta documentação é **NIST SP 800-218, SSDF Version 1.1 (2022)**. Versões/drafts posteriores só devem substituir esta referência após publicação final e revisão do SFAAO.
 
-## 3.5 Artigo SFAAO aceito para publicação
+## 3.5 Artigo SFAAO revisado e ressubmetido
 
 
 ### Referência metodológica do release 2.4.0
 
-A metodologia de calibração externa independente está associada ao artigo **“Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification”**, submetido ao *IEEE Access* em 15/07/2026 (manuscript ID `Access-2026-35145`) e **aceito para publicação**, conforme confirmação da equipe responsável. O aceite editorial não equivale à publicação efetiva.
+A metodologia de calibração externa independente está associada ao artigo **“Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification”**, submetido ao *IEEE Access* em 15/07/2026 (manuscript ID `Access-2026-35145`) e cuja versão revisada foi **ressubmetida após atendimento às solicitações dos revisores**. A decisão editorial sobre a aceitação permanece pendente.
 
-A referência `[R44]` corresponde a um **artigo aceito para publicação**, ainda sem metadados bibliográficos finais confirmados nesta documentação. Não atribuir DOI, volume, fascículo ou páginas sem comprovação editorial; registrar esses dados quando disponíveis.
+A referência `[R44]` corresponde a um **manuscrito revisado e ressubmetido**, ainda sem decisão editorial ou metadados bibliográficos finais confirmados nesta documentação. Não atribuir DOI, volume, fascículo ou páginas sem comprovação editorial; registrar esses dados quando disponíveis.
 
 ---
 

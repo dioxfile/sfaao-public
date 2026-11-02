@@ -13,7 +13,7 @@ The editorial rule is:
 The calibration addressed here is primarily **decision-threshold / operating-point calibration**. It must not be confused with probability-calibration techniques such as Platt scaling or temperature scaling, whose objective is to transform model outputs into calibrated probabilities.
 
 
-**Release note:** the related methodology paper has been accepted for publication in IEEE Access; the effective parameters of each calibration, protocol, and metric remain specific to the context persisted by SFAAO.
+**Release note:** the related methodology paper has undergone peer review, and its revised version has been resubmitted to IEEE Access after addressing the reviewers' comments; the effective parameters of each calibration, protocol, and metric remain specific to the context persisted by SFAAO.
 ---
 
 ## 2. Biometric score
@@ -388,7 +388,7 @@ One must not conclude that:
 
 **JAIN, A. K.; ROSS, A.; PRABHAKAR, S.** An Introduction to Biometric Recognition. *IEEE Transactions on Circuits and Systems for Video Technology*, vol. 14, no. 1, pp. 4–20, 2004. DOI: 10.1109/TCSVT.2003.818349.
 
-**JOSÉ, D. A. M.; MARQUES, L. de M.; BUENO, A.; SILVA, R. B. Z. da.** Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification. Accepted for publication in *IEEE Access*, 2026; editorial acceptance must not be confused with final publication.
+**JOSÉ, D. A. M.; MARQUES, L. de M.; BUENO, A.; SILVA, R. B. Z. da.** Independent External-Impostor Calibration for Mitigating Dataset Shift in Forensic Offline Signature Verification. Revised manuscript resubmitted to *IEEE Access* after peer review, 2026; editorial decision pending.
 
 **MORENO-TORRES, J. G.; RAEDER, T.; ALAIZ-RODRÍGUEZ, R.; CHAWLA, N. V.; HERRERA, F.** A Unifying View on Dataset Shift in Classification. *Pattern Recognition*, vol. 45, no. 1, pp. 521–530, 2012. DOI: 10.1016/j.patcog.2011.06.019.
 
