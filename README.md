@@ -4,81 +4,10 @@
 
 <h1 align="center">SFAAO 2.4.0</h1>
 
-<p align="center">
-  <strong>Software Forense para Análise de Assinaturas Offline</strong><br>
-  <strong>Forensic Software for Offline Handwritten Signature Analysis</strong>
-</p>
-
-<p align="center">
-  <strong>Linux DEB | Linux RPM | Windows</strong>
-</p>
-
 ---
-
-<!-- SFAAO_240_PUBLIC_UPDATE_START -->
-## Destaques do SFAAO 2.4.0 / Version 2.4.0 Highlights
-
-O **SFAAO 2.4.0** integra inteligência artificial, análise
-grafoscópica especializada e procedimentos quantitativos para
-apoiar a análise forense de assinaturas offline.
-
-**Principais recursos:**
-
-- Interface com 20 critérios grafoscópicos.
-- Protocolos forense e científico metodologicamente distintos.
-- Calibração conforme o protocolo e o domínio de avaliação.
-- Comparação individual consolidada LORO/A4.
-- Inspeção de scores pairwise sem decisão técnica isolada.
-- Comparação em lote e atualização do contexto.
-- Documentação técnica e relatórios PDF/DOCX.
-- Distribuições Linux DEB, Linux RPM e Windows EXE.
-
-**English:** SFAAO 2.4.0 combines artificial intelligence,
-expert graphoscopic assessment, protocol-specific calibration,
-LORO/A4 comparison, pairwise score inspection, batch processing,
-and technical reporting.
-
-The forensic protocol requires expert classification before
-calibration. The scientific protocol may use external impostors
-under the applicable experimental design.
-
-**Limitação / Limitation:** O SFAAO não substitui o exame
-realizado por um perito grafoscopista. Computational results
-do not independently establish the legal authenticity
-of a signature.
-
-### Destaques das telas / Screenshot Highlights
-
-- [Interface principal / Main interface](media/images/screenshots/main-window.png)
-- [Gestão do caso / Case management](media/images/screenshots/case-window.png)
-- [20 critérios grafoscópicos / 20 graphoscopic criteria](media/images/screenshots/main-window-criterios-grafos.png)
-- [Comparação / Signature comparison](media/images/screenshots/compare-window.png)
-- [Comparação LORO/A4 / LORO/A4 comparison](media/images/screenshots/compare-window-loro.png)
-- [Inspeção pairwise / Pairwise inspection](media/images/screenshots/compare-window-pairwise_inspection.png)
-- [Atualização de contexto / Context refresh](media/images/screenshots/compare-window-context_refresh.png)
-- [Resultado da calibração / Calibration results](media/images/screenshots/result-calibration-window.png)
-- [Relatório DOCX / DOCX report](media/images/screenshots/expert-report-result-docx.png)
-
-### Documentação oficial / Official Documentation
-
-[Documentação PT-BR e ENG / Documentation Index](docs/README.md)
-
-[Notas de lançamento / Release Notes](docs/RELEASE_2.4.0_PTBR_EN.md)
-
-<!-- SFAAO_240_PUBLIC_UPDATE_END -->
-
-<!-- SFAAO_DOCUMENTATION_INDEX -->
-## Documentação técnica / Technical Documentation
-
-Acesse os **20 documentos técnicos**, os manuais completos em PDF e as notas da versão 2.4.0.
-
-Access the **20 technical documents**, complete PDF manuals and release notes for version 2.4.0.
-
-**[Índice da documentação / Documentation Index](docs/README.md)**
 
 
 # Português — Brasil
-
 ## Apresentação
 
 O **SFAAO 2.4.0** é uma plataforma computacional especializada no apoio à análise forense e científica de assinaturas manuscritas digitalizadas.
@@ -240,7 +169,6 @@ Entre os principais recursos estão:
 
 ## Interface principal
 
-![Interface principal do SFAAO 2.4.0](media/images/screenshots/main-window.png)
 
 ## Vinte critérios grafoscópicos
 
@@ -248,7 +176,6 @@ A versão 2.4.0 apresenta uma interface dedicada aos **20 critérios grafoscópi
 
 Essa funcionalidade reforça a participação do especialista na análise e na documentação dos elementos grafoscópicos.
 
-![Interface dos 20 critérios grafoscópicos](media/images/screenshots/main-window-criterios-grafos.png)
 
 ## Inteligência Artificial
 
@@ -283,7 +210,6 @@ A interface de comparação disponibiliza quatro operações:
 3. **Comparar em Lote** — processamento de múltiplas comparações.
 4. **Atualizar Contexto** — atualização das informações utilizadas na comparação.
 
-![Interface de comparação do SFAAO 2.4.0](media/images/screenshots/compare-window.png)
 
 Na abordagem LORO/A4, a decisão técnica consolidada não deve ser confundida com o score individual de inspeção pairwise.
 
@@ -294,6 +220,7 @@ O SFAAO permite a elaboração de relatórios técnicos em **PDF e DOCX**, apoia
 A rastreabilidade dos procedimentos e das configurações utilizadas é parte importante do fluxo técnico do sistema.
 
 <!-- SFAAO_240_GALLERY_PT_START -->
+
 ### SFAAO 2.4.0 em funcionamento
 
 As capturas abaixo apresentam o fluxo operacional do **SFAAO 2.4.0**, desde a configuração inicial do ambiente até a análise e geração da documentação pericial.
@@ -302,23 +229,23 @@ As imagens são disponibilizadas exclusivamente para demonstração pública da 
 
 #### Configuração inicial e acesso
 
-**1. Configuração inicial do administrador**
+**1. Primeiro usuário**
 
 Configuração do primeiro usuário administrativo responsável pelo ambiente do SFAAO.
 
 <p align="center">
-  <img src="media/images/screenshots/first-admin.png" alt="Configuração inicial do administrador" width="1000">
+  <img src="media/images/screenshots/first-admin.png" alt="Primeiro usuário" width="1000">
 </p>
 
-**2. Primeiro acesso**
+**2. Login**
 
 Tela inicial utilizada para autenticação e acesso ao sistema.
 
 <p align="center">
-  <img src="media/images/screenshots/first-login.png" alt="Primeiro acesso" width="1000">
+  <img src="media/images/screenshots/first-login.png" alt="Login" width="1000">
 </p>
 
-#### Ambiente principal e casos
+#### Interface principal
 
 **3. Janela principal**
 
@@ -336,12 +263,14 @@ Interface dedicada à avaliação especializada dos 20 critérios grafoscópicos
   <img src="media/images/screenshots/main-window-criterios-grafos.png" alt="20 critérios grafoscópicos" width="1000">
 </p>
 
-**5. Criação de caso**
+#### Gestão de casos
+
+**5. Novo caso**
 
 Permite cadastrar e identificar de forma estruturada um novo caso pericial.
 
 <p align="center">
-  <img src="media/images/screenshots/create-case.png" alt="Criação de caso" width="1000">
+  <img src="media/images/screenshots/create-case.png" alt="Novo caso" width="1000">
 </p>
 
 **6. Lista de casos**
@@ -352,9 +281,17 @@ Apresenta os casos cadastrados e permite selecionar o caso que será analisado.
   <img src="media/images/screenshots/list-case.png" alt="Lista de casos" width="1000">
 </p>
 
+**7. Caso pericial**
+
+Organiza referências, assinaturas questionadas e demais informações associadas ao caso.
+
+<p align="center">
+  <img src="media/images/screenshots/case-window.png" alt="Caso pericial" width="1000">
+</p>
+
 #### Perfil pericial e usuários
 
-**7. Perfil do perito**
+**8. Perfil do perito**
 
 Cadastro dos dados profissionais utilizados na identificação do responsável técnico.
 
@@ -362,7 +299,7 @@ Cadastro dos dados profissionais utilizados na identificação do responsável t
   <img src="media/images/screenshots/profile-expert.png" alt="Perfil do perito" width="1000">
 </p>
 
-**8. Gerenciamento de usuários**
+**9. Gerenciamento de usuários**
 
 Permite administrar os usuários autorizados a utilizar a plataforma.
 
@@ -372,7 +309,7 @@ Permite administrar os usuários autorizados a utilizar a plataforma.
 
 #### Datasets e modelos
 
-**9. Gerenciamento de datasets**
+**10. Gerenciamento de datasets**
 
 Administração dos conjuntos de dados disponíveis para treinamento e experimentação científica.
 
@@ -380,7 +317,7 @@ Administração dos conjuntos de dados disponíveis para treinamento e experimen
   <img src="media/images/screenshots/manager-datasets.png" alt="Gerenciamento de datasets" width="1000">
 </p>
 
-**10. Adição de dataset**
+**11. Adição de dataset**
 
 Interface destinada ao cadastro e à integração controlada de novos conjuntos de assinaturas.
 
@@ -388,7 +325,7 @@ Interface destinada ao cadastro e à integração controlada de novos conjuntos 
   <img src="media/images/screenshots/add-datasets.png" alt="Adição de dataset" width="1000">
 </p>
 
-**11. Validação de dataset**
+**12. Validação de dataset**
 
 Verificação da estrutura e compatibilidade do conjunto de dados antes de sua utilização.
 
@@ -396,7 +333,7 @@ Verificação da estrutura e compatibilidade do conjunto de dados antes de sua u
   <img src="media/images/screenshots/valid-dataset.png" alt="Validação de dataset" width="1000">
 </p>
 
-**12. Adição de modelo**
+**13. Adição de modelo**
 
 Permite registrar modelos compatíveis com a infraestrutura de análise e experimentação do SFAAO.
 
@@ -406,7 +343,7 @@ Permite registrar modelos compatíveis com a infraestrutura de análise e experi
 
 #### Treinamento e monitoramento
 
-**13. Configuração de treinamento**
+**14. Configuração de treinamento**
 
 Ambiente parametrizável para configuração das estratégias e parâmetros utilizados no treinamento.
 
@@ -414,7 +351,7 @@ Ambiente parametrizável para configuração das estratégias e parâmetros util
   <img src="media/images/screenshots/train-window.png" alt="Configuração de treinamento" width="1000">
 </p>
 
-**14. Monitoramento do treinamento**
+**15. Monitoramento do treinamento**
 
 Permite acompanhar a execução e a evolução do processo de treinamento.
 
@@ -422,15 +359,7 @@ Permite acompanhar a execução e a evolução do processo de treinamento.
   <img src="media/images/screenshots/train-monitor-window.png" alt="Monitoramento do treinamento" width="1000">
 </p>
 
-#### Operações do caso
-
-**15. Janela do caso**
-
-Organiza referências, assinaturas questionadas e demais informações associadas ao caso.
-
-<p align="center">
-  <img src="media/images/screenshots/case-window.png" alt="Janela do caso" width="1000">
-</p>
+#### Operações e calibração
 
 **16. Operações do caso**
 
@@ -439,8 +368,6 @@ Disponibiliza as operações computacionais e periciais aplicáveis ao caso sele
 <p align="center">
   <img src="media/images/screenshots/operation-window.png" alt="Operações do caso" width="1000">
 </p>
-
-#### Calibração, comparação e resultados
 
 **17. Calibração estatística**
 
@@ -465,6 +392,8 @@ Apresentação complementar dos resultados da calibração.
 <p align="center">
   <img src="media/images/screenshots/result-calibration-window-2.png" alt="Visualização adicional da calibração" width="1000">
 </p>
+
+#### Comparação e resultados
 
 **20. Comparação de assinaturas**
 
@@ -506,30 +435,30 @@ Organiza os resultados obtidos em múltiplas comparações realizadas dentro do 
   <img src="media/images/screenshots/batch-result-window.png" alt="Resultados em lote" width="1000">
 </p>
 
-#### Documentação pericial
+#### Laudos PDF e DOCX
 
-**25. Laudo pericial**
+**25. Geração de laudo**
 
 Organiza os dados técnicos utilizados na elaboração da documentação pericial.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-window.png" alt="Laudo pericial" width="1000">
+  <img src="media/images/screenshots/expert-report-window.png" alt="Geração de laudo" width="1000">
 </p>
 
-**26. Resultado da geração do laudo**
+**26. Laudo PDF**
 
 Apresenta o resultado do processo de geração da documentação estruturada do caso.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-result.png" alt="Resultado da geração do laudo" width="1000">
+  <img src="media/images/screenshots/expert-report-result.png" alt="Laudo PDF" width="1000">
 </p>
 
-**27. Relatório técnico DOCX**
+**27. Laudo DOCX**
 
 Visualização do documento técnico produzido pelo SFAAO 2.4.0.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-result-docx.png" alt="Relatório técnico DOCX" width="1000">
+  <img src="media/images/screenshots/expert-report-result-docx.png" alt="Laudo DOCX" width="1000">
 </p>
 
 > **Importante:** o SFAAO é uma ferramenta computacional de apoio. A interpretação e a conclusão pericial dependem do protocolo aplicado e do profissional tecnicamente habilitado.
@@ -594,8 +523,9 @@ O software SFAAO possui registro junto ao Instituto Nacional da Propriedade Indu
 
 ---
 
-# English
+---
 
+# English
 ## Overview
 
 **SFAAO 2.4.0 — Forensic Software for Offline Handwritten Signature Analysis** is a specialized computational platform supporting forensic and scientific examination of digitized handwritten signatures.
@@ -753,13 +683,11 @@ Additional intellectual-property information will be disclosed according to the 
 
 ## Main Interface
 
-![SFAAO 2.4.0 main interface](media/images/screenshots/main-window.png)
 
 ## Twenty Graphoscopic Criteria
 
 SFAAO 2.4.0 provides a dedicated interface for **20 graphoscopic criteria**, integrating specialist assessment into the computational forensic workflow.
 
-![SFAAO graphoscopic criteria interface](media/images/screenshots/main-window-criterios-grafos.png)
 
 ## Artificial Intelligence
 
@@ -792,7 +720,6 @@ Four main operations are available:
 3. **Batch Comparison** — processing multiple comparisons.
 4. **Refresh Context** — updating the active comparison context.
 
-![SFAAO 2.4.0 signature comparison](media/images/screenshots/compare-window.png)
 
 A consolidated LORO/A4 technical result must not be confused with an individual pairwise inspection score.
 
@@ -801,6 +728,7 @@ A consolidated LORO/A4 technical result must not be confused with an individual 
 SFAAO supports **PDF and DOCX** technical reporting, helping document analyses, configurations, and results.
 
 <!-- SFAAO_240_GALLERY_EN_START -->
+
 ### SFAAO 2.4.0 in Action
 
 The screenshots below present the operational workflow of **SFAAO 2.4.0**, from initial environment setup to analysis and generation of forensic documentation.
@@ -809,23 +737,23 @@ The images are provided exclusively as a public demonstration of the platform an
 
 #### Initial setup and access
 
-**1. Initial administrator setup**
+**1. First user**
 
 Configuration of the first administrative user responsible for the SFAAO environment.
 
 <p align="center">
-  <img src="media/images/screenshots/first-admin.png" alt="Initial administrator setup" width="1000">
+  <img src="media/images/screenshots/first-admin.png" alt="First user" width="1000">
 </p>
 
-**2. First access**
+**2. Login**
 
 Initial screen used for authentication and system access.
 
 <p align="center">
-  <img src="media/images/screenshots/first-login.png" alt="First access" width="1000">
+  <img src="media/images/screenshots/first-login.png" alt="Login" width="1000">
 </p>
 
-#### Main environment and cases
+#### Main interface
 
 **3. Main window**
 
@@ -843,12 +771,14 @@ Dedicated interface supporting expert assessment of 20 graphoscopic criteria.
   <img src="media/images/screenshots/main-window-criterios-grafos.png" alt="20 graphoscopic criteria" width="1000">
 </p>
 
-**5. Case creation**
+#### Case management
+
+**5. New case**
 
 Allows a new forensic case to be registered and identified in a structured manner.
 
 <p align="center">
-  <img src="media/images/screenshots/create-case.png" alt="Case creation" width="1000">
+  <img src="media/images/screenshots/create-case.png" alt="New case" width="1000">
 </p>
 
 **6. Case list**
@@ -859,9 +789,17 @@ Displays registered cases and allows selection of the case to be analyzed.
   <img src="media/images/screenshots/list-case.png" alt="Case list" width="1000">
 </p>
 
+**7. Forensic case**
+
+Organizes reference signatures, questioned signatures and other case-related information.
+
+<p align="center">
+  <img src="media/images/screenshots/case-window.png" alt="Forensic case" width="1000">
+</p>
+
 #### Forensic profile and users
 
-**7. Forensic examiner profile**
+**8. Forensic examiner profile**
 
 Professional information used to identify the responsible technical examiner.
 
@@ -869,7 +807,7 @@ Professional information used to identify the responsible technical examiner.
   <img src="media/images/screenshots/profile-expert.png" alt="Forensic examiner profile" width="1000">
 </p>
 
-**8. User management**
+**9. User management**
 
 Allows management of users authorized to operate the platform.
 
@@ -879,7 +817,7 @@ Allows management of users authorized to operate the platform.
 
 #### Datasets and models
 
-**9. Dataset management**
+**10. Dataset management**
 
 Management of datasets available for training and scientific experimentation.
 
@@ -887,7 +825,7 @@ Management of datasets available for training and scientific experimentation.
   <img src="media/images/screenshots/manager-datasets.png" alt="Dataset management" width="1000">
 </p>
 
-**10. Adding a dataset**
+**11. Adding a dataset**
 
 Interface for controlled registration and integration of new signature datasets.
 
@@ -895,7 +833,7 @@ Interface for controlled registration and integration of new signature datasets.
   <img src="media/images/screenshots/add-datasets.png" alt="Adding a dataset" width="1000">
 </p>
 
-**11. Dataset validation**
+**12. Dataset validation**
 
 Verification of dataset structure and compatibility before use.
 
@@ -903,7 +841,7 @@ Verification of dataset structure and compatibility before use.
   <img src="media/images/screenshots/valid-dataset.png" alt="Dataset validation" width="1000">
 </p>
 
-**12. Adding a model**
+**13. Adding a model**
 
 Allows registration of models compatible with the SFAAO analysis and experimentation infrastructure.
 
@@ -913,7 +851,7 @@ Allows registration of models compatible with the SFAAO analysis and experimenta
 
 #### Training and monitoring
 
-**13. Training configuration**
+**14. Training configuration**
 
 Configurable environment for defining training strategies and parameters.
 
@@ -921,7 +859,7 @@ Configurable environment for defining training strategies and parameters.
   <img src="media/images/screenshots/train-window.png" alt="Training configuration" width="1000">
 </p>
 
-**14. Training monitor**
+**15. Training monitor**
 
 Allows monitoring of training execution and progress.
 
@@ -929,15 +867,7 @@ Allows monitoring of training execution and progress.
   <img src="media/images/screenshots/train-monitor-window.png" alt="Training monitor" width="1000">
 </p>
 
-#### Case operations
-
-**15. Case window**
-
-Organizes reference signatures, questioned signatures and other case-related information.
-
-<p align="center">
-  <img src="media/images/screenshots/case-window.png" alt="Case window" width="1000">
-</p>
+#### Operations and calibration
 
 **16. Case operations**
 
@@ -946,8 +876,6 @@ Provides computational and forensic operations applicable to the selected case.
 <p align="center">
   <img src="media/images/screenshots/operation-window.png" alt="Case operations" width="1000">
 </p>
-
-#### Calibration, comparison and results
 
 **17. Statistical calibration**
 
@@ -972,6 +900,8 @@ Additional view of the calibration results.
 <p align="center">
   <img src="media/images/screenshots/result-calibration-window-2.png" alt="Additional calibration results" width="1000">
 </p>
+
+#### Comparison and results
 
 **20. Signature comparison**
 
@@ -1013,30 +943,30 @@ Organizes results obtained from multiple comparisons performed within a case.
   <img src="media/images/screenshots/batch-result-window.png" alt="Batch results" width="1000">
 </p>
 
-#### Forensic documentation
+#### PDF and DOCX reports
 
-**25. Forensic report**
+**25. Report generation**
 
 Organizes technical information used in forensic documentation.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-window.png" alt="Forensic report" width="1000">
+  <img src="media/images/screenshots/expert-report-window.png" alt="Report generation" width="1000">
 </p>
 
-**26. Generated report result**
+**26. PDF report**
 
 Presents the result of the structured case-documentation generation process.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-result.png" alt="Generated report result" width="1000">
+  <img src="media/images/screenshots/expert-report-result.png" alt="PDF report" width="1000">
 </p>
 
-**27. DOCX technical report**
+**27. DOCX report**
 
 Preview of a technical document generated by SFAAO 2.4.0.
 
 <p align="center">
-  <img src="media/images/screenshots/expert-report-result-docx.png" alt="DOCX technical report" width="1000">
+  <img src="media/images/screenshots/expert-report-result-docx.png" alt="DOCX report" width="1000">
 </p>
 
 > **Important:** SFAAO is a computational support tool. Forensic interpretation and conclusions depend on the applied protocol and a technically qualified professional.
