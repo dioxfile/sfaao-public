@@ -62,3 +62,15 @@ logs/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# SFAAO bilingual manual authoring files
+# Keep LaTeX sources and intermediate artifacts out of the public repository.
+# Official SFAAO_MANUAL_2.4.0_*.pdf documents remain published.
+/docs/MANUAL/ENG/chapters/
+/docs/MANUAL/PTBR/chapters/
+/docs/MANUAL/ENG/frontmatter.tex
+/docs/MANUAL/PTBR/frontmatter.tex
+/docs/MANUAL/ENG/main.*
+/docs/MANUAL/PTBR/main.*
+/docs/MANUAL/assets/
+/docs/MANUAL/shared/
